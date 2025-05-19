@@ -13,12 +13,15 @@ async function listInvoices() {
   return data;
 }
 
+
+/*
 async function DeleteAllTables() {
   await sql`DROP TABLE IF EXISTS invoices;`;
   await sql`DROP TABLE IF EXISTS users;`;
   await sql`DROP TABLE IF EXISTS customers;`;
   await sql`DROP TABLE IF EXISTS revenue;`;
 }
+  */
 
 export async function GET() {
   try {
